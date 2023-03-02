@@ -1,0 +1,305 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+   font-size: 62.5;
+}
+
+
+.contenedor{
+    display: flex;
+    margin-left: 4rem;
+    background-image: url(./img/fondo5.png);
+    background-repeat: no-repeat;   
+}
+
+.button1{
+    width: 7rem;
+    height: 1.5rem;
+    margin-left: 26rem;
+    font-size: 1.2rem;
+    border-radius: 0.2rem;
+    background-color: black;
+    color: white;
+    border: 0.1rem;
+}
+
+.button1:hover{
+    border: 0.1rem solid white;
+}
+
+.button2{
+    width: 8rem;
+    height: 1.5rem;
+    border: none;
+    font-size: 1.1rem;
+    color: white;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 102, 0);
+}
+
+.button3{
+    width: 6.2rem;
+    height: 1.5rem;  
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 0.2rem;
+    background-color: black;
+}
+
+a{
+    color: white;
+}
+
+.button4{
+    display: flex;
+    width: 13rem;
+    height: 2.8rem;
+    border: none;
+    color: white;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 102, 0);
+    justify-content: center;
+    font-size: 1.2rem;
+    align-items: center;
+    margin-left: -27rem;
+    margin-top: 18.9rem;
+}
+
+.imagen{
+    display: flex;
+    height: 28rem;
+    margin-left: -48rem;  
+}    
+
+.letra{
+    display: flex;
+    width: 10rem;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+    align-items: center; 
+} 
+
+.imagen2{
+    display: flex;
+    height: 28rem;
+    margin-left: 2.5rem;
+    justify-content: space-between;
+}
+
+     /* segundo paso */
+
+#busqueda{
+    display: flex;
+    justify-content: center;
+    width: 45rem;
+    height: 2.8rem;
+    margin-top: 3rem; 
+    margin-left: 17rem;
+    border: none;
+    font-size: 1.1rem;
+    background-color: rgb(226, 226, 226); 
+    color: rgb(169, 167, 167); 
+ }
+
+ .orange{
+    display: flex;
+    width: 10rem;
+    height: 2.8rem;
+    justify-content: center;
+    color: white;
+    border-radius: 0.2rem;
+    border: none;
+    background-color: rgb(255, 102, 0);
+    font-size: 1rem;
+    margin-left: 64.5rem;
+    align-items: center;
+    margin-top: -2.9rem;
+ }
+
+ .lupa{
+    display:flex ;
+    justify-content: center;
+    width: 2rem;
+    height: 1.9rem;
+    margin-left: 59rem;
+    margin-top: -2rem;
+ }
+
+ .lupa2{
+    display:flex ;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.3rem;
+ }
+
+ p{
+    margin-top: 1.5rem;
+    margin-left: 24rem;
+    font-size: 1.5rem;
+    color: rgb(35, 33, 33);
+    
+ }
+
+        /* tercer paso */
+
+.conteiner2{
+    display: flex;
+    margin-top: 3rem;
+    height: 15rem;
+    justify-content: center;   
+}
+
+.imagen1{
+    width: 11rem;
+    margin-right: 1.2rem;
+}
+
+.conteiner2 img:hover{
+    width: 11rem;
+}
+
+.imagen4{
+    width: 11rem;
+    margin-right: 1rem;
+}
+
+.imagen5{
+    width: 11rem;
+    margin-right: 0.4rem;
+}
+
+
+.conteiner2 img:hover{
+    margin-left: 2rem;
+}
+
+.imagenes2{
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+    height: 15rem;
+}
+
+.imagenes2 img:hover{
+    margin-left: 2rem;
+    width: 10rem;
+}
+
+.imagen6{
+    width: 11rem;
+}
+
+.imagen7{
+    width: 10rem;
+}
+
+.imagen8{
+    width: 11rem;
+}
+
+.imagen9{
+    width: 11rem;
+}
+
+.imagen10{
+    width: 11rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+
+.orange2{
+    min-width: 16.5rem;
+    height: 3rem;
+    border: none;
+    color: white;
+    border-radius: 0.2rem;
+    background-color: rgb(255, 102, 0);
+    margin-left: 34rem;
+    margin-top: 21rem;
+    font-size: 1rem;
+}
+
+
+.imagen3{
+    display: flex; 
+    justify-content: center;
+}
+
+.creaty{
+    width: 45rem;
+}
+
+.p1{
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    margin-left: 25.5rem;
+}
+.p2{
+    font-size: 1.8rem;
+    margin-left: 21rem;
+    color: rgb(94, 94, 94);
+}
+
+.orange3{
+    display: flex;
+    min-width: 14.5rem;
+    height: 3rem;
+    background-color: rgb(255, 102, 0);
+    margin-left: 36rem;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.white{
+    display: flex;
+    min-width: 5rem;
+    height: 2.1rem;
+    justify-content: center;
+    font-size: 1rem;
+    align-items: center;
+    margin-left: 46rem;
+    margin-top: -2rem;
+}
+
+.Already{
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    margin-left: 36rem;  
+}
+
+.final{
+    width: 78rem;
+    height: 9rem;
+    background-color: rgb(250, 245, 245);
+    margin-left: 4rem;
+    margin-top: 6rem;
+}
+
+.p3{
+    font-size: 1rem;
+    color: black;
+    margin-left: 1rem;
+    padding: 1rem;
+    color: rgb(188, 180, 180);
+}
+
+.p4{
+    font-size: 1rem;
+    color: black;
+    margin-left: 2rem;
+    margin-top: 0rem;
+}
+
+span{
+    color: rgb(0, 47, 255);
+    font-size: 1rem;
+}
